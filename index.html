@@ -6,9 +6,22 @@
     <link rel="stylesheet" href="tailwind.css">
     <title>Instalacion Tailwind</title>
 </head>
-<body>
-    
-    <h1 class="text-3xl font-mono underline text-green-500"> Hallo Welt TailwindCSS</h1>
+<body class="bg-gray-400">
+
+<header class="bg-white shadow px-6">
+                    <!-- item="arriba, Abajo" y justify="Izquierda, Derecha"-->
+    <div class="flex h-16 items-center justify-between"> 
+                    <!-- Esta es para cuando se ponga el cursor encima cambie de color y el fondo(hover), la transición(transition), redondeado(rounded), sombreado(shadow), quede al presionar marcado(focus) -->
+        <button class="text-gray-400 hover:text-blue-600 hover:bg-blue-50 transition-colors rounded p-1 m-1 focus:ring-2 focus:ring-slate-100"> 
+                    <!-- h="altura" y w="ancho" -->
+            <svg class="h-6 w-6" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+            </svg>
+        </button>
+        <button>theme</button>
+        <button>user</button>
+    </div>
+</header>
 
 </body>
 </html>
