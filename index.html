@@ -11,16 +11,42 @@
 <header class="bg-white shadow px-6">
                     <!-- item="arriba, Abajo" y justify="Izquierda, Derecha"-->
     <div class="flex h-16 items-center justify-between"> 
+
                     <!-- Esta es para cuando se ponga el cursor encima cambie de color y el fondo(hover), la transición(transition), redondeado(rounded), sombreado(shadow), quede al presionar marcado(focus) -->
-        <button class="text-gray-400 hover:text-blue-600 hover:bg-blue-50 transition-colors rounded p-1 m-1 focus:ring-2 focus:ring-slate-100"> 
+        <button class="text-gray-500 hover:text-blue-600 hover:bg-blue-50 transition-colors rounded p-1 m-1 focus:ring-2 focus:ring-slate-100"> 
                     <!-- h="altura" y w="ancho" -->
             <svg class="h-6 w-6" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
             </svg>
         </button>
-        <button>theme</button>
-        <button>user</button>
+
+        <a href="" class="text-yellow-400 hover:rotate-180 duration-500">
+            <svg class="h-8 w-8" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z"></path>
+            </svg>
+        </a>
+
+        <div class="flex ">
+
+            <button class="px-1 text-gray-400 hover:bg-black hover:text-white transition-colors rounded-full focus:ring-1 focus:ring-slate-5000">
+                <svg class="h-8 w-8" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"></path>
+                </svg>
+            </button>
+
+            <button class="ml-6 text-sky-400 hover:rotate-6 duration-500">
+                <img class="rounded-full h-9 w-9" src="http://ui-avatars.com/api?name=Diego Diaz" alt="Diego Diaz">
+            </button>
+
+        </div>
+
     </div>
+
+    <!-- Navegacion Movil -->
+    <a href="" class="block rounded-md px-3 py-2 hover:bg-sky-400 hover:text-white transition-colors text-gray-500">Home</a>
+    <a href="" class="block rounded-md px-3 py-2 hover:bg-sky-400 hover:text-white transition-colors text-gray-500">About</a>
+    <a href="" class="block rounded-md px-3 py-2 hover:bg-sky-400 hover:text-white transition-colors text-gray-500">Blog</a>
+    <a href="" class="block rounded-md px-3 py-2 hover:bg-sky-400 hover:text-white transition-colors text-gray-500">Contac</a>
 </header>
 
 </body>
